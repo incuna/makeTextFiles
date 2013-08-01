@@ -1,0 +1,13 @@
+{
+  "name": "makeTextFiles",
+  "version": "0.0.1",
+  "description": "Crete textFiles.js for an edetail project",
+  "main": "makeTextFiles.js",
+  "bin": {
+      "makeTextFiles": "makeTextFiles.js"
+  },
+  "devDependencies": {
+    "lodash": "~0.9.2",
+    "glob": "~3.2.6"
+  }
+}

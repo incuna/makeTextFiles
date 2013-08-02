@@ -6,7 +6,11 @@
   "bin": {
       "makeTextFiles": "makeTextFiles.js"
   },
-  "devDependencies": {
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/incuna/makeTextFiles.git"
+  },
+  "dependencies": {
     "lodash": "~0.9.2",
     "glob": "~3.2.6"
   }

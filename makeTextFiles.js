@@ -96,7 +96,7 @@ fs.readFile(templatePath, 'utf8', function (err, template) {
     });
 
     // Write the textFiles
-    console.log('Writting '+destinationPath);
+    console.log('Writing '+destinationPath);
     var fileTemplate = _.template(template);
     fs.writeFile(destinationPath, fileTemplate({
         textFiles: sortedPaths.join("',\n        '"),
